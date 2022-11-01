@@ -28,11 +28,11 @@ RSpec.configure do |config|
           variables: {
             defaultHost: {
               default: 'www.example.com'
-            }
-          }
-        }
-      ]
-    }
+            },
+          },
+        },
+      ],
+    },
   }
 
   # Specify the format of the output Swagger file when running 'rswag:specs:swaggerize'.
