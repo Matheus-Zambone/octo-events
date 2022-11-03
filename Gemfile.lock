@@ -222,6 +222,8 @@ GEM
     rubocop-rspec (2.14.2)
       rubocop (~> 1.33)
     ruby-progressbar (1.11.0)
+    shoulda-matchers (5.2.0)
+      activesupport (>= 5.2.0)
     simplecov (0.21.2)
       docile (~> 1.1)
       simplecov-html (~> 0.11)
@@ -256,6 +258,7 @@ DEPENDENCIES
   rubocop-performance
   rubocop-rails_config
   rubocop-rspec
+  shoulda-matchers
   simplecov
   tzinfo-data
 
